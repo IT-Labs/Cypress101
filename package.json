@@ -1,0 +1,23 @@
+{
+  "name": "cypress101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	  "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT-Labs/Cypress101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IT-Labs/Cypress101/issues"
+  },
+  "homepage": "https://github.com/IT-Labs/Cypress101#readme",
+  "devDependencies": {
+    "cypress": "^3.8.0"
+  }
+}
