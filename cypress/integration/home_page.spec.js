@@ -1,11 +1,14 @@
+import {elements} from './elements';
+
 describe('The Home Page', function() {
-    it('successfully loads', function() {
+    it('successfull login', function() {
       cy.visit('/')
-      .get('#Email')
+      .get(elements.email)
       .type('')
-      cy.get('#Password')
+      cy.get(elements.password)
       .type('')
       cy.get('#submitButton').click()
-      cy.get('.page-title-header').should('have.text', 'Column content')
+      cy.get('.page-title-header').should('have.text', 'Direct Rebate Management')
     })
   })
+  
