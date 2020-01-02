@@ -1,4 +1,6 @@
 {
-    "baseUrl": "https://hsqamhsidentity.azurewebsites.net/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dangularclient%26redirect_uri%3Dhttps%253A%252F%252Fhsqahsiqweb.azurewebsites.net%252Fsignin-callback.html%26response_type%3Did_token%2520token%26scope%3Dopenid%2520profile%2520role%2520accountapi%2520leadplusapi%2520newsapi%2520collaborationapi%2520bpoapi%2520invoiceapi%2520contractapi%2520geoapi%2520aggregationapi%2520marketingapi%2520drminvoiceapi%26nonce%3DN0.71321267204569531577345888422%26state%3D15773458884180.9375534193740842",
-    "chromeWebSecurity": false
+    "baseUrl" : "https://hsqamhsidentity.azurewebsites.net",
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 60000,
+    "defaultCommandTimeout": 5000
 }
